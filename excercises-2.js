@@ -59,32 +59,32 @@ function rovarspraket(phrase){
   return newphrase;
 
 };
-// var newphrase = phrase.map(function(letter) {
-//    var vowels = ["a","e","i","o","u"];
-//      if (!vowels.includes(letter)) {
-//     	 letter = letter + "o" + letter;
-// } 
 
-// function rovarspraket(phrase){
-
-// var newphrase = phrase.map(function(letter) {
-//    var vowels = ["a","e","i","o","u","y"];
-//      if (!vowels.includes(letter)) {
-//     	 letter = letter + "o" + letter;
-// } 
-// // else {
-// //     	return false
-// //     }
-// return newphrase;
-// });
-
-// };
 
 
 // ---------------------
 // Define a function reverse() that computes the reversal of a string. For example, reverse("jag testar") should return the string "ratset gaj".
 // ---------------------
 
-function reverse(){
-    //...
+function reverse(x){
+
+var first_array = x.split('').map(function(n) {
+    return (n);
+});   
+var reverse_string = "";
+
+var reversefunc = function (y) {
+var reversed = y.reverse();
+reversed.map(function(n) {
+reverse_string += n;
+})};
+
+reversefunc (first_array);
+return reverse_string;
+
 }
+
+
+
+
+
