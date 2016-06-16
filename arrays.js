@@ -20,12 +20,23 @@ var instructors = [
 // 1. Find largest number
 // ---------------------------
 
-
+var max = Math.max.apply(Math, numbers);
 
 
 // ---------------------------
 // 2. Find longest string
 // ---------------------------
+
+
+// var  characters = 0;
+// var long_string;
+
+// for (var i = 0; i < strings.lenght; i++)
+//    if (strings[i] > characters) {
+//    	characters = strings[i].lenght
+//    	long_string = strings[i]
+//    };
+// return long_string;
 
 
 
